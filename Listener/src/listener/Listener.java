@@ -21,7 +21,7 @@ public class Listener extends JFrame implements ActionListener {
 		// Initialize elements
 		myFrame = new JFrame("My Title");
 		myLabel = new JLabel("This is my JLabel");
-		myTextField = new JTextField();
+		myTextField = new JTextField(16);
 		myButton = new JButton("Submit");
 
 		// Create a listener by creating an instance of this class
